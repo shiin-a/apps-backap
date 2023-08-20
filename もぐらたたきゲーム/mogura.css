@@ -1,0 +1,140 @@
+body{
+  background: url('壁紙.png');
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; 
+}
+#addScore{
+  font-size: 80px;
+  
+}
+div.notstarted{
+  margin-right:auto; 
+  margin-left:auto; 
+  margin-top: -280px;
+  border: 2px solid #cccccc;
+  width: 300px;
+  height: 400px;
+  background: url('しばふ白黒.png');
+}
+div.wait{
+  margin-right:auto; 
+  margin-left:auto; 
+  margin-top:-230px;
+  border: 2px solid #cccccc;
+  width: 300px;
+  height: 400px;
+  background: url('しばふ.png');
+}
+div.progress{
+  margin-right:auto; 
+  margin-left:auto; 
+  margin-top: 230px;
+  width: 300px;
+
+}
+div.widget{
+  margin-right:auto; 
+  margin-left:auto; 
+  margin-top: -20px;
+  width: 300px;
+  height: 100px;
+
+}
+div.started{
+  margin-right:auto; 
+  margin-left:auto; 
+  margin-top:20px;
+  border: 2px solid #cccccc;
+  width: 300px;
+  height: 400px;
+  background: url('しばふ.png');
+}
+img{
+  position: relative; 
+  left : 0px;
+  top: 0px;
+}
+.button{
+  position: relative; 
+  left : 16px; 
+  top: 28px;
+  display: inline-block;
+  padding: 0.5em 2.7em;
+  font-size: 30px;
+  font-weight: 590;
+  text-decoration: none;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2); 
+}
+#timer{
+  position: relative; 
+  left : 20px; 
+  top: 200px;
+  font-size: 230px;
+  font-weight: 980;
+  color: #cccccc;
+  z-index: 2;
+}
+
+ #hole0{
+  position: relative; 
+  left : 10px; 
+  top: 0px;
+}
+#hole1{
+  position: relative; 
+  left : 30px; 
+  top: 0px;
+}
+#hole2{
+  position: relative; 
+  left : 50px; 
+  top: 0px;
+}
+#hole3{
+  position: relative; 
+  left : 50px; 
+  top: 20px;
+ 
+}
+#hole4{
+  position: relative; 
+  left : 100px; 
+  top: 20px;
+ 
+}
+#hole5{
+  position: relative; 
+  left : -110px; 
+  top: 120px;
+ 
+}
+#hole6{
+  position: relative; 
+  left : 180px; 
+  top: 30px;
+}
+#hole7{
+  position: relative; 
+  left : -70px; 
+  top: 140px;
+}
+#hole8{
+  position: relative; 
+  left : -50px; 
+  top: 140px;
+}
+#hole9{
+  position: relative; 
+  left : 210px; 
+  top: 50px;
+}
+
+
+
+

@@ -1,0 +1,204 @@
+
+.btn-circle-border-simple {
+    display: inline-block;
+    text-decoration: none;
+    color: #999999;
+    width: 90px;
+    height: 90px;
+    line-height: 100px;
+    border-radius: 50%;
+    border: solid 2px #999999;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .4s;
+  }
+  
+  .btn-circle-border-simple:hover {
+    background: #b3e1ff;
+    display: inline-block;
+    text-decoration: none;
+    color: #668ad8;
+    width: 90px;
+    height: 90px;
+    line-height: 100px;
+    border-radius: 50%;
+    border: solid 2px #668ad8;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .4s;
+  }
+  
+  
+
+  
+  
+  .move{
+      box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    transform: translate(-20px, -30px);
+  }
+  
+  img  {
+       margin : 8px ;
+       
+  }
+  a{
+    color: #cccccc; 
+    left: 50%
+  }
+  .already{
+    color: #000; 
+    left: 50%
+  }
+
+  .shine{
+     color: #000;
+     background: #c2edff;
+     font-weight: bold;
+  }
+  
+  
+
+
+
+ #switchArea {
+  line-height    : 60px;               
+  letter-spacing : 0;                  
+  text-align     : center;            
+  font-size      : 27px;               
+
+  position       : relative;       
+  margin         : auto;               
+  width          : 150px;             
+  background     : #fff;              
+}
+
+
+#switchArea input[type="checkbox"] {
+  display        : none;            
+}
+
+
+#switchArea label {
+  display        : block;            
+  box-sizing     : border-box;          
+  height         : 60px;               
+  border         : 2px solid #999999;  
+  border-radius  : 30px;               
+}
+
+#switchArea input[type="checkbox"]:checked +label {
+  border-color   : #668ad8;           
+}
+
+
+#switchArea label span:after{
+  content        : "OFF";               
+  padding        : 0 0 0 36px;         
+  color          : #999999;           
+}
+
+
+#switchArea  input[type="checkbox"]:checked + label span:after{
+  content        : "ON";                
+  padding        : 0 36px 0 0;         
+  color          : #668ad8;            
+}
+
+
+#switchArea #swImg {
+  position       : absolute;            
+  width          : 52px;               
+  height         : 52px;               
+  background     : #999999;             
+  top            : 4px;                 
+  left           : 4px;                 
+  border-radius  : 26px;               
+  transition     : .2s;                
+}
+
+
+#switchArea input[type="checkbox"]:checked ~ #swImg {
+  transform      : translateX(90px);    
+  background     : #668ad8;             
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #switchArea2 {
+  line-height    : 60px;               
+  letter-spacing : 0;                  
+  text-align     : center;            
+  font-size      : 27px;               
+
+  position       : relative;       
+  margin         : auto;               
+  width          : 150px;             
+  background     : #fff;              
+}
+
+
+#switchArea2 input[type="checkbox"] {
+  display        : none;            
+}
+
+
+#switchArea2 label {
+  display        : block;            
+  box-sizing     : border-box;          
+  height         : 60px;               
+  border         : 2px solid #999999;  
+  border-radius  : 30px;               
+}
+
+
+#switchArea2 input[type="checkbox"]:checked +label {
+  border-color   : #ffd700;           
+}
+
+
+#switchArea2 label span:after{
+  content        : "OFF";               
+  padding        : 0 0 0 36px;         
+  color          : #999999;           
+}
+
+
+#switchArea2  input[type="checkbox"]:checked + label span:after{
+  content        : "ON";                
+  padding        : 0 36px 0 0;         
+  color          : #ffd700;            
+}
+
+
+#switchArea2 #swImg2 {
+  position       : absolute;            
+  width          : 52px;               
+  height         : 52px;               
+  background     : #999999;             
+  top            : 4px;                 
+  left           : 4px;                 
+  border-radius  : 26px;               
+  transition     : .2s;                
+}
+
+#switchArea2 input[type="checkbox"]:checked ~ #swImg2 {
+  transform      : translateX(90px);    
+  background     : #ffd700;             
+}

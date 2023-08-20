@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="./src/poker.css">
+    
+    
+    <link rel="shortcut icon" href="./picture/トランプ.png">
+     
+    <title>♠♣♥♦</title>
+  </head>
+  <body>
+        <br>
+       <div id="listOfCard" style="position: absolute; left: 2%"></div>
+    
+    <script type="text/javascript" src="./src/sample.js"></script>
+    
+
+    <div id="switchArea"style="position: absolute; top: 62%; left: 2%;" onchange="changeOnOff1()">
+      <input type="checkbox" id="switch1">
+      <label for="switch1"><span></span></label>
+      <div id="swImg"></div>
+      
+    </div>
+    <p style="color: #999999;position: absolute; top: 70%; left: 4%;">自動（低速）</p>
+
+    <div id="switchArea2"style="position: absolute; top: 81%; left: 2%;" onchange="changeOnOff2()">
+      <input type="checkbox" id="switch2">
+      <label for="switch2"><span></span></label>
+      <div id="swImg2"></div>
+    </div>
+    <p style="color: #999999;position: absolute; top: 89%; left: 4%;">自動（高速）</p>
+   
+
+    <a id="kaisuu" style="font-size: 30px;color:#999999;position: absolute; top: 53%;"></a>
+    <a id="ファイブカード" style="position: absolute; top: 60%;">　ファイブカード　</a>
+    <a id="フォーカード" style=" position:absolute; top: 65%;">　フォーカード　</a>
+    <a id="フルハウス"  style="position: absolute; top: 70%; ">　フルハウス　</a>
+    <a id="スリーカード" style="position: absolute; top: 75%;">　スリーカード　</a>
+    <a id="ツーペア" style="position: absolute; top: 80%;">　ツーペア　</a>
+    <a id="ワンペア" style="position: absolute; top: 85%;">　ワンペア　</a>
+    <a id="ノーペア"    style="position: absolute; top: 90%;">　ノーペア　</a>
+    
+    <a href="#" class="btn-circle-border-simple" onclick="pushButton()" style="position: absolute; top: 45%; left: 2% ">１回引く</a>
+     
+  
+  </body>
+</html>

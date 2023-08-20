@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--
+    <link rel="stylesheet" type="text/css" href="sample.css">-->
+    
+    
+    <link rel="shortcut icon" href="4.png">
+    <title>もぐら叩き</title>
+    
+    <link rel="stylesheet" href="mogura.css" type="text/css" >
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+   
+  </head>
+  <body class="notstarted">
+    <div class="progress">
+        
+        <progress id="progress" style="text-align:center; width: 120px;" value="60" max="60">10%</progress>
+       
+    </div>
+    <div class="widget">
+        <a>　　　　　　　　　　　　　</a>
+        <a>99</a>
+        <a id="addScore">　</a>
+      </div>
+   
+    
+    <p id="gamename" style="text-align:center; position: relative; top: 20px; font-weight: 900; color: #800000; font-size: 35px;">もぐら叩きゲーム</p>
+      <p id="timer" style="text-align:center;"></p>
+      <p id="timer2" style="text-align:center;"></p>
+   
+      <div class="notstarted" id="screen">
+          
+          <div href="#" class="button" style="color: blue;position: relative; left : 40px; top: 120px; background: url('中級.png');" onclick="clickButton('syokyuu')">初級</div>
+          <div href="#" class="button" style="color: red; position: relative; left : 40px; top: 160px; background: url('上級.png');" onclick="clickButton('zyoukyu')">上級</div>
+          
+          <!-- <img id="picture"  src="0白黒.png" width="80px" style="position: relative; left : 0px; top: 10px;" />
+          <img id="picture"  src="0白黒.png" width="80px" style="position: relative; left : 16px; top: 28px;" />
+          <img id="picture"  src="0白黒.png" width="80px" style="position: relative; left : 16px; top: 28px;" /> -->
+      </div>
+      <audio src="なにしてあそぶ？.mp3"  id="audio"loop></audio>
+      <audio src="kicknew2.mp3#t=0.2,1.5"  id="0kick" ></audio>
+      <audio src="kicknew2.mp3#t=0.2,2.0"  id="1kick" ></audio>
+      <audio src="kicknew2.mp3#t=0,2.2.0"    id="2kick" ></audio>
+      <audio src="kicknew2.mp3#t=0.2,2.0"    id="3kick" ></audio>
+      <audio src="kicknew2.mp3#t=1.9,2.0"    id="4kick" ></audio>
+      <audio src="kicknew2.mp3#t=1.9,2.0"    id="5kick" ></audio>
+     
+    
+    
+    <script type="text/javascript" src="mogura.js"></script>
+    
+   
+
+ 
+  </body>
+</html>
